@@ -66,10 +66,24 @@ a:hover {
     cursor: default;
 }
 
-/*
-@media screen and (max-width : 1200px) {
-    #desktop-nav{
-        display: none;
-    }
+
+/* HAMBURGER MENU */
+#hamburger-nav{
+    display: none;
+    position: relative;
 }
-*/
+
+/* Till now i could not catch what that ?*/
+.hamburger-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
