@@ -134,13 +134,13 @@ a:hover {
   transform: rotate(-45deg) translate(10px, -5px);
 }
 
-
-#profile{
+/* SECTIONS */
+#profile {
   display: flex;
   align-items: center;
 }
 
-.section__text{
+.section__text {
   align-self: center;
   text-align: center;
 }
