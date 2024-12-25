@@ -135,4 +135,12 @@ a:hover {
 }
 
 
+#profile{
+  display: flex;
+  align-items: center;
+}
 
+.section__text{
+  align-self: center;
+  text-align: center;
+}
