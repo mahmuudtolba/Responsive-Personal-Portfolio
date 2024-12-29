@@ -277,12 +277,12 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  padding: 4rem;
 }
 
 .section-container {
   gap: 4rem;
   height: 30%;
-  display: flex;
 }
 
 .section__pic-container {
@@ -294,4 +294,40 @@ section {
 
 .section__text__a1{
   text-align: center;
+}
+
+.section__text__e1{
+  font-size: 2rem;
+  font-weight:1000;
+  
+}
+.article-container{
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article{
+  display: flex;
+  width: 10rem;
+  gap: 1rem;
+  justify-content: start;
+}
+
+.experience-sub-title{
+  color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+#experience{
+  position:relative 
+}
+
+#project{
+  position:relative 
 }
